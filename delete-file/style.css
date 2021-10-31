@@ -1,0 +1,86 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.container {
+  max-width: 95.5vh;
+  margin: auto;
+  box-shadow: rgb(0 0 0 / 20%) 0px 4px 8px 0px,
+    rgb(0 0 0 / 19%) 0px 6px 20px 0px;
+  padding: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.project-header-title {
+  text-align: center;
+  color: red;
+  cursor: default;
+  font-weight: bold;
+}
+
+.content-header {
+  width: 100%;
+  cursor: default;
+  font-size: 0.9em;
+}
+
+.content-header-detail {
+  display: inline-block;
+}
+
+.project-title {
+  text-align: center;
+  cursor: default;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.content-body {
+    margin-left: 50px;
+}
+
+.button-run {
+  margin-top: 10px;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 1px solid #3399ff;
+  color: #3399ff;
+  background-color: #fff;
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+.button-run:hover {
+  background-color: #3399ff;
+  color: white;
+}
+
+input {
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #3399ff;
+  outline: none;
+  border-radius: 7px;
+  color: #3399ff;
+  font-weight: bold;
+  font-size: 1em;
+  margin-right: 20%;
+}
+
+input:focus {
+  background-color: rgba(51, 153, 255, 0.75);
+  color: #fff;
+}
+
+.input-label {
+  font-weight: bold;
+}
